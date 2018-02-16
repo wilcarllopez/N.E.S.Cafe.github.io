@@ -12,7 +12,7 @@
 
     <style type="text/css">
 
-      img{
+      #sample{
         width: 250px;
         height: 250px;
       }
@@ -29,10 +29,11 @@
       	text-align: center;
       }
 
-      .d-block w-100{
-      	width: 100%
-      	height: 100%;
+      .item{
+      	text-align: center;
       }
+
+      
     </style>
     
   </head>
@@ -59,31 +60,85 @@
           </ul>
         </nav>
       </div><!-- navigation -->
-
+      
       <!--Jumbotron --> <!--Select Jumbotron or Carousel? -->
-      <div class="jumbotron">
+      <!--div class="jumbotron">
         <h1>N.E.S Cafe</h1>
         <p class="lead">We have everything you need!</p>
         <p><a class="btn btn-lg btn-default" href="#" role="button">Visit Us</a></p>
-      </div><!-- /jumbotron -->
+      </div><!-- /jumbotron --> 
+
+      <!-- carousel-->
+      <div id="theCarousel" class="carousel slide" data-ride="carousel">
+
+      <ol class="carousel-indicators">
+      <li data-target="#theCarousel" data-slide-to="0" class="active"></li>
+      <li data-target="#theCarousel" data-slide-to="1"></li>
+      <li data-target="#theCarousel" data-slide-to="2"></li>
+      </ol>
+
+      <div class="carousel-inner">
+      	<div class="item active">
+      	<div class="slide1"></div>
+      	<div class="`carousel-caption">
+
+      		<h1>Amazing Backgrounds</h1>
+      			<p>Thousands of Backgrounds for Free</p>
+      			<p><a href="#" class="btn btn-primary btn-sm">Get them Now
+      			</a></p>
+
+      	</div>
+  		</div><!-- /firstslide -->
+
+  		<div class="item">
+      	<div class="slide2"></div>
+      	<div class="`carousel-caption">
+
+      		<h1>Thousand of Colors</h1>
+      			<p>Every Color you can Imagine</p>
+      			
+      	</div>
+  		</div><!-- /secondslide -->
+
+  		<div class="item">
+      	<div class="slide3"></div>
+      	<div class="`carousel-caption">
+
+      		<h1>Amazing Illustrations</h1>
+      			<p>And they are All Free</p>
+      			
+      	</div>
+  		</div><!-- /thirdslide -->
+
+
+      </div><!-- /carouselinner -->
+
+      <a class="left carousel-control" href="#theCarousel" data-slide="prev">
+      <span class="glyphicon glyphicon-chevron-left"></span></a>
+
+      <a class="right carousel-control" href="#theCarousel" data-slide="next">
+      <span class="glyphicon glyphicon-chevron-right"></span></a>
+
+
+      </div><!-- /carousel -->
 
 
       <!-- Bootsrap Grid -->
       <div class="row">
         <div class="col-lg-4">
-          <img src="images\sample.jpg" alt="sample image">
+          <img id="sample" src="images\sample.jpg" alt="sample image">
           <h2>24 Hours PROMO</h2>
           <p>As a valentines promo, We are giving you 70% discount! </p>
           <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
         </div>
         <div class="col-lg-4">
-          <img src="images\sample.jpg" alt="sample image">
+          <img id="sample" src="images\sample.jpg" alt="sample image">
           <h2>Sample</h2>
           <p>this is just a sample</p>
           <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
        </div>
         <div class="col-lg-4">
-          <img src="images\sample.jpg" alt="sample image">
+          <img id="sample" src="images\sample.jpg" alt="sample image">
           <h2>Available Games</h2>
           <p>The complete list of all our games.</p>
           <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
@@ -94,7 +149,7 @@
       <footer class="footer">
         <p>&copy; ITE3 Web Development</p>
       </footer>
-
+      
     </div> <!-- /container -->
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
