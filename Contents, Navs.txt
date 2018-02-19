@@ -5,12 +5,20 @@ Pages
 -Services 
 
 	Internet Access
-	CD Burning
+		-description
+
+	CD/DVD Burning (PIRATA)
+
 	Fax Services
+
 	Scanning & Printing
+
 	Laminating
-	Photocopies	
+
+	Photocopies
+	
 	Food Service 
+
 		*Prices, Table, Bundles
 *PROMOS*
 	Bundles
