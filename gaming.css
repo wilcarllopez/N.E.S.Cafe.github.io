@@ -1,0 +1,19 @@
+table{
+      	 border-spacing: 10px;
+      }
+
+td{
+      	padding: 40px;
+      }
+
+img{
+      	width: 115px;
+      	height: 115px;
+      }
+.gametable{
+	background-color: white;
+}
+
+h1{
+	text-align: center;
+}
