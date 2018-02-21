@@ -26,6 +26,10 @@
         bottom: 0;
         text-align: center;
       }
+
+.gametable {
+  padding-left: 20px;
+}
 body{
   background-image: url(images/Galaxy-BG.jpg);
 }

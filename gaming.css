@@ -11,9 +11,12 @@ img{
       	height: 115px;
       }
 .gametable{
-	background-color: white;
-}
+	background-color:	#8585ad;
 
 h1{
 	text-align: center;
+}
+
+#para{
+    font color: white;
 }
