@@ -5,11 +5,12 @@
 
 .header{
         padding: 1em;
+        height: auto;
+        width: 100%;
         color: white;
-        background-color: grey;
-        clear: left;
-
-      }
+        background-image: url(images/Galaxy-BG.jpg);
+        background-size: auto;
+        }
 .jumbotron{
       	color: white;
         text-align: center;
@@ -30,6 +31,16 @@
 .gametable {
   padding-left: 20px;
 }
+
+.w3-container{
+  width: 75%;
+  margin: auto;
+  position: center;
+
+}
+
 body{
-  background-image: url(images/Galaxy-BG.jpg);
+  background-color: #222326;
+  height: auto;
+  background-repeat: no-repeat;
 }
