@@ -104,7 +104,7 @@ display: block;
 }
 
 #about-jumbotron{
-    background-image: url("../images/.jpg");
+    background-image: url("../images/about.jpg");
 }
 
 #online-games{
@@ -114,6 +114,7 @@ display: block;
 #offline-games{
     text-align: center;
 }
+
 
 #contact-jumbotron{
     background-image: url("../images/.jpg");
