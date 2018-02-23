@@ -40,8 +40,8 @@ display: block;
 }
 
 .carousel-item{
-	height:500px;
-	background-repeat: round;
+    height:500px;
+    background-repeat: round;
 }
 .carousel-item h2{
     font-size: 50px;
@@ -59,24 +59,24 @@ display: block;
       
       }
 #myfooter{
-	color:white;
-	background-color: #373A3C;
-	clear:left;
+    color:white;
+    background-color: #373A3C;
+    clear:left;
 
 }
 #myfooter a{
-	color:white;
-	background-color: #373A3C;
-	clear:left;
-	font-family: Century Gothic, san-serif;
+    color:white;
+    background-color: #373A3C;
+    clear:left;
+    font-family: Century Gothic, san-serif;
 }
 
 .btn-danger{
-	background-color:#c30006;
+    background-color:#c30006;
 }
 
 .jumbotron{
-      	color: white;
+        color: white;
         text-align: center;
         background-repeat: round;
         text-shadow: 2px 2px 4px #000000;
@@ -84,7 +84,7 @@ display: block;
         box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 .jumbotron h1{
-		font-size: 50px;
+        font-size: 50px;
 }
 
 #headertext{
@@ -104,7 +104,7 @@ display: block;
 }
 
 #about-jumbotron{
-    background-image: url("../images/about.jpg");
+    background-image: url("../images/.jpg");
 }
 
 #online-games{
@@ -123,18 +123,18 @@ display: block;
 }
  
 .gametable img{
-	height: 115px;
-	width: 115px;
+    height: 115px;
+    width: 115px;
 
 }
 
 .table-secondary{
-	text-align: center;
+    text-align: center;
 }
 
 .fa-globe{
     font-size: 150px;
-	
+    
 }
 .fa-cloudscale{
     font-size: 150px;
