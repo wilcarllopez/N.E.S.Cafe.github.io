@@ -5,6 +5,7 @@
         font-size: 30px;
         font-family: Century Gothic, san-serif;
         margin-top: 10px;
+        text-shadow: 2px 2px 4px #000000;
 
 
       }
@@ -16,6 +17,7 @@
         font-family: Century Gothic, san-serif;
         margin-bottom: 10px;
         margin-left:40px;
+        text-shadow: 2px 2px 4px #000000;
 
 
       }
@@ -41,10 +43,17 @@ display: block;
 }
 .carousel-item h2{
     font-size: 50px;
+    text-shadow: 2px 2px 4px #000000;
+}
+.lead{
+    color:white;
+    text-shadow: 2px 2px 4px #000000;
+
 }
 #sample{
         width: 250px;
         height: 250px;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
       
       }
 #myfooter{
@@ -68,6 +77,7 @@ display: block;
       	color: white;
         text-align: center;
         background-repeat: round;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 .jumbotron h1{
 		font-size: 50px;
@@ -92,10 +102,14 @@ display: block;
 #contact-jumbotron{
     background-image: url("../images/.jpg");
 }
+.gametable{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
  
 .gametable img{
 	height: 115px;
 	width: 115px;
+
 }
 
 .table-secondary{
