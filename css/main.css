@@ -4,8 +4,9 @@
         clear: left;
         font-size: 30px;
         font-family: Century Gothic, san-serif;
-        margin-top: 10px;
+       
         text-shadow: 2px 2px 4px #000000;
+       
 
 
       }
@@ -15,7 +16,7 @@
         clear: left;
         font-size: 10px;
         font-family: Century Gothic, san-serif;
-        margin-bottom: 10px;
+    
         margin-left:40px;
         text-shadow: 2px 2px 4px #000000;
 
@@ -118,6 +119,7 @@ display: block;
 
 .fa-globe{
     font-size: 150px;
+	
 }
 .fa-cloudscale{
     font-size: 150px;
@@ -136,4 +138,16 @@ display: block;
 }
 .fa-utensils{
     font-size: 150px;
+}
+.fa-shekel-sign{
+    font-size: 60px;
+    margin-top: 10px;
+    margin-right: 10px;
+    float: left;
+
+
+}
+.fa-shekel-sign a{
+    text-decoration: none;
+   
 }
