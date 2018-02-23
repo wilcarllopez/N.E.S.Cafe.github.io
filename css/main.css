@@ -27,6 +27,7 @@
         color: white;
         background-color: #c30006;
         clear: left;
+        height: 80px;
 
       }
 .nav-item:hover .dropdown-menu {
@@ -59,13 +60,13 @@ display: block;
       }
 #myfooter{
 	color:white;
-	background-color: black;
+	background-color: #373A3C;
 	clear:left;
 
 }
 #myfooter a{
 	color:white;
-	background-color: black;
+	background-color: #373A3C;
 	clear:left;
 	font-family: Century Gothic, san-serif;
 }
@@ -86,6 +87,10 @@ display: block;
 		font-size: 50px;
 }
 
+#headertext{
+    font-size: 17px;
+}
+
 #gaming-jumbotron{
     background-image: url("../images/lol_cover.jpg");
 }
@@ -100,6 +105,14 @@ display: block;
 
 #about-jumbotron{
     background-image: url("../images/.jpg");
+}
+
+#online-games{
+    text-align: center;
+}
+
+#offline-games{
+    text-align: center;
 }
 
 #contact-jumbotron{
