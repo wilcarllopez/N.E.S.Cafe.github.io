@@ -1,0 +1,125 @@
+#myheader a{
+        color: white;
+        background-color: #c30006;
+        clear: left;
+        font-size: 30px;
+        font-family: Century Gothic, san-serif;
+        margin-top: 10px;
+
+
+      }
+#myheader p{
+        color: white;
+        background-color: #c30006;
+        clear: left;
+        font-size: 10px;
+        font-family: Century Gothic, san-serif;
+        margin-bottom: 10px;
+        margin-left:40px;
+
+
+      }
+#myheader{
+        padding: 0em;
+        color: white;
+        background-color: #c30006;
+        clear: left;
+
+      }
+.nav-item:hover .dropdown-menu {
+display: block;
+}
+
+.carousel-caption {
+    top: 30%;
+    bottom: auto;
+}
+
+.carousel-item{
+	height:500px;
+	background-repeat: round;
+}
+.carousel-item h2{
+    font-size: 50px;
+}
+#sample{
+        width: 250px;
+        height: 250px;
+      
+      }
+#myfooter{
+	color:white;
+	background-color: black;
+	clear:left;
+
+}
+#myfooter a{
+	color:white;
+	background-color: black;
+	clear:left;
+	font-family: Century Gothic, san-serif;
+}
+
+.btn-danger{
+	background-color:#c30006;
+}
+
+.jumbotron{
+      	color: white;
+        text-align: center;
+        background-repeat: round;
+}
+.jumbotron h1{
+		font-size: 50px;
+}
+
+#gaming-jumbotron{
+    background-image: url("../images/lol_cover.jpg");
+}
+
+#services-jumbotron{
+    background-image: url("../images/services_cover.jpg");
+}
+
+#promos-jumbotron{
+    background-image: url("../images/.jpg");
+}
+
+#about-jumbotron{
+    background-image: url("../images/.jpg");
+}
+
+#contact-jumbotron{
+    background-image: url("../images/.jpg");
+}
+ 
+.gametable img{
+	height: 115px;
+	width: 115px;
+}
+
+.table-secondary{
+	text-align: center;
+}
+
+.fa-globe{
+    font-size: 150px;
+}
+.fa-cloudscale{
+    font-size: 150px;
+}
+.fa-fax{
+    font-size: 150px;
+}
+.fa-print{
+    font-size: 150px;
+}
+.fa-file-archive{
+    font-size: 150px;
+}
+.fa-copy{
+    font-size: 150px;
+}
+.fa-utensils{
+    font-size: 150px;
+}

@@ -3,91 +3,188 @@
 <head>
 	<title>Services</title>
 
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-
-	<style type="text/css">
-
-      #sample{
-        width: 250px;
-        height: 250px;
-      }
-
-      .header{
-        padding: 1em;
-        color: white;
-        background-color: grey;
-        clear: left;
-
-      }
-
-      .jumbotron{
-      	text-align: center;
-      }
-
-      .item{
-      	text-align: center;
-      }
-
-      .footer{
-        position: fixed;
-        bottom: 0;
-        text-align: center;
-      }
-
-    </style>
-</head>
-<body>
-	<!-- Container -->
-    <div class="container">
-
-      <!-- Page Header -->
-      <div class="header">
-        <h2>Site Name</h2>
-      </div>
-      
-      <!-- navigation -->
-      <div class="nav">
-         <nav>
-          <ul class="nav nav-justified navbar-inverse">
-            <li><a href="index.html">Home</a></li>
-            <li><a href="gaming.html">Gaming</a></li>
-            <li class="active"><a href="#">Services</a></li>
-            <li><a href="promos.html">Promos</a></li>
-            <li><a href="about.html">About</a></li>
-            <li><a href="contact.html">Contact</a></li>
-          </ul>
-        </nav>
-      </div><!-- navigation -->
-
-       <!--Jumbotron --> 
-      <div class="jumbotron">
-        <h1>Services</h1>
-        <p class="lead">We offer everything!</p>
-      </div><!-- /jumbotron --> 
-
-      <!-- insert content here -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
      
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+
+    <link rel="stylesheet" type="text/css" href="css/main.css">
+
+    <link href="https://use.fontawesome.com/releases/v5.0.6/css/all.css" rel="stylesheet">
+</head>
+
+<body>
+	<!--header-->
+        <div class="row">
+            <div id="myheader" class="col-sm-12">
+                <div class="container">
+                    <a class="navbar-brand" href="index.html"><strong>N. E. S. C A F E</strong></h1><br/><p>NETWORK EMISSION SHELL</p></a>
+                            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarColor02" aria-controls="navbarColor02" aria-expanded="false" aria-label="Toggle navigation" style="">
+                                <span class="navbar-toggler-icon"></span>
+                            </button>
+
+                </div><!--/container-->
+            </div>
+        </div>
+        <!--/header-->
+
+    <!--navbar-->
+        <div class="row">
+            <div class="col-sm-12">
+                <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+                    <div class="container">
+
+                        <div class="collapse navbar-collapse" id="navbarColor02">
+                        <ul class="navbar-nav mr-auto">
+                            <li class="nav-item">
+                                <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link" href="gaming.html" role="button" aria-haspopup="true" aria-expanded="false">Gaming</a>
+                                <div class="dropdown-menu" x-placement="bottom-start" style="position: absolute; transform: translate3d(0px, 38px, 0px); top: 0px; left: 0px; will-change: transform;">
+                                <a class="dropdown-item" href="gaming.html#online-games">Online Games</a>
+                                <div class="dropdown-divider"></div>
+                                <a class="dropdown-item" href="gaming.html#offline-games">Offline Games</a>
+                                </div>
+                            </li>
+                            <li class="nav-item dropdown active">
+                                <a class="nav-link" href="services.html" role="button" aria-haspopup="true" aria-expanded="false">Services</a>
+                                <div class="dropdown-menu" x-placement="bottom-start" style="position: absolute; transform: translate3d(0px, 38px, 0px); top: 0px; left: 0px; will-change: transform;">
+                                <a class="dropdown-item" href="#internet-service">Internet Acces</a>
+                                <a class="dropdown-item" href="#cd-burning">CD/DVD Burning</a>
+                                <a class="dropdown-item" href="#fax-service">Fax Services</a>
+                                <a class="dropdown-item" href="#scanning">Scanning and Printing</a>
+                                <a class="dropdown-item" href="#laminate">Laminating</a>
+                                <a class="dropdown-item" href="#photocopy">Photo Copies</a>
+                                <div class="dropdown-divider"></div>
+                                <a class="dropdown-item" href="#food-service">Food Service</a>
+                                </div>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link" href="promos.html" role="button" aria-haspopup="true" aria-expanded="false">Promos</a>
+                                <div class="dropdown-menu" x-placement="bottom-start" style="position: absolute; transform: translate3d(0px, 38px, 0px); top: 0px; left: 0px; will-change: transform;">
+                                <a class="dropdown-item" href="promos.html#combo-a">Combo A</a>
+                                <a class="dropdown-item" href="promos.html#combo-b">Combo B</a>
+                                <a class="dropdown-item" href="promos.html#como-c">Combo C</a>
+                                </div>
+                            </li>   
+                            <li class="nav-item">
+                                <a class="nav-link" href="about.html">About</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="contact.html">Contact</a>
+                            </li>
+                        </ul>
+                        <form class="form-inline my-2 my-lg-0">
+                            <input class="form-control mr-sm-2" type="text" placeholder="Search">
+                            <button class="btn btn-secondary my-2 my-sm-0" type="submit">Search</button>
+                        </form>
+                    </div>
+                </div><!--/container-->
+                </nav>
+            </div>
+        </div>
+        <!--/navbar-->
+      
+    <div class="container">
+      <!--Jumbotron --> 
+      <div id="services-jumbotron" class="jumbotron">
+        <h1><strong>Services</strong></h1>
+        <p class="lead">We offer Everything!</p>
+      </div><!-- /jumbotron --> 
+    </div>
+
+    <div class="container text-center">
+      <div class="row">
+      <div class="col-sm-12" style="height:30px;">
+      </div>
+    </div>
+
+      <div class="row">
+        <div class="col-lg-4">
+          <i class="fas fa-globe"></i>
+          <h2 id="internet-service">Internet Access</h2>
+          <p>One of the fastest network you will ever use. Even time can't catch up.</p>
+        </div>
+        <div class="col-lg-4">
+          <i class="fab fa-cloudscale"></i>
+          <h2 id="cd-burning">CD/DVD Burning</h2>
+          <p>A need for entertainment? Just list down anything and we'll burn them with our hottest equipments. </p>
+        </div>
+        <div class="col-lg-4">
+          <i class="fas fa-fax"></i>
+          <h2 id="fax-service">Fax Services</h2>
+          <p>Right! We still provide fax services in this age; it may be old but it's still gold.</p>
+        </div>
+      </div>
+
+      <div class="row">
+      <div class="col-sm-12" style="height:30px;">
+      </div>
+    </div>
+
+      <div class="row">
+        <div class="col-lg-4">
+          <i class="fas fa-print"></i>
+          <h2 id="scanning">Scanning and Printing</h2>
+          <p>Running out of ink? Rushing a requirement? </p>
+        </div>
+        <div class="col-lg-4">
+          <i class="far fa-file-archive"></i>
+          <h2 id="laminate">Laminating</h2>
+          <p>Rainy season is just around the corner, secure those important paper of yours and try our laminating service.  </p>
+        </div>
+        <div class="col-lg-4">
+          <i class="far fa-copy"></i>
+          <h2 id="photocopy">Photo Copying</h2>
+          <p>Anything a printer can do, A xerox machine can do cheaper.</p>
+        </div>
+      </div>
+
+      <div class="row">
+      <div class="col-sm-12" style="height:30px;">
+      </div>
+    </div>
+
+      <div class="row">
+        <div class="col-lg-4">
+        </div>
+        <div class="col-lg-4">
+          <i class="fas fa-utensils"></i>
+          <h2 id="food-service">Food Service</h2>
+          <p>Fuel yourselves with some of our delcious meals. You don't have to pause that game we'll serve it for you.</p>
+        </div>
+        <div class="col-lg-4">
+        </div>
+      </div>
+      <div class="row">
+      <div class="col-sm-12" style="height:30px;">
+      </div>
+    </div>
+
+  </div><!--/container-->
 
 
+      <!--footer-->
+    <div class="row">
+        <div id="myfooter" class="col-sm-12" style="height:100px;">
+            <div class="container">
+                    <a class="navbar-brand" href="index.html"><strong>N.E.S. CAFE</strong></a>
+                            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarColor02" aria-controls="navbarColor02" aria-expanded="false" aria-label="Toggle navigation" style="">
+                                <span class="navbar-toggler-icon"></span>
+                            </button>
+                    <p class="copyright">&copy;2018 ITE3 Web Development | <a href="index.html">Home</a> | Editorial policy | Privacy policy | Cookie policy | Terms and condition</p>          
+                </div><!--/container-->
+        </div>
+    </div>
+    <!--/footer-->
 
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
 
-
-
-
-
-
-
-	
-	  <!-- Site footer -->
-      <footer class="footer">
-        <p>&copy; ITE3 Web Development</p>
-      </footer>
-
-      </div> <!-- /container -->
-
-	<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-    <!-- Include all compiled plugins (below), or include individual files as needed -->
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
 </body>
+
 </html>

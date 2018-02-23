@@ -3,138 +3,197 @@
 <head>
 	<title>Gaming</title>
 
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-  <link rel="stylesheet" type="text/css" href="main.css">
-  <link rel="stylesheet" type="text/css" href="gaming.css">
-  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+     
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
 
+    <link rel="stylesheet" type="text/css" href="css/main.css">
 
 </head>
 <body>
-	<!-- Container -->
-    <div class="w3-container">
+	<!--header-->
+        <div class="row">
+            <div id="myheader" class="col-sm-12">
+                <div class="container">
+                    <a class="navbar-brand" href="index.html"><strong>N. E. S. C A F E</strong></h1><br/><p>NETWORK EMISSION SHELL</p></a>
+                            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarColor02" aria-controls="navbarColor02" aria-expanded="false" aria-label="Toggle navigation" style="">
+                                <span class="navbar-toggler-icon"></span>
+                            </button>
 
-      <!-- Page Header -->
-      <div class="header">
-        <h2>NES Cafe</h2>
-      </div>
+                </div><!--/container-->
+            </div>
+        </div>
+        <!--/header-->
+
+    <!--navbar-->
+        <div class="row">
+            <div class="col-sm-12">
+                <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+                    <div class="container">
+
+                        <div class="collapse navbar-collapse" id="navbarColor02">
+                        <ul class="navbar-nav mr-auto">
+                            <li class="nav-item">
+                                <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+                            </li>
+                            <li class="nav-item dropdown active">
+                                <a class="nav-link" href="gaming.html" role="button" aria-haspopup="true" aria-expanded="false">Gaming</a>
+                                <div class="dropdown-menu" x-placement="bottom-start" style="position: absolute; transform: translate3d(0px, 38px, 0px); top: 0px; left: 0px; will-change: transform;">
+                                <a class="dropdown-item" href="#online-games">Online Games</a>
+                                <div class="dropdown-divider"></div>
+                                <a class="dropdown-item" href="#offline-games">Offline Games</a>
+                                </div>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link" href="services.html" role="button" aria-haspopup="true" aria-expanded="false">Services</a>
+                                <div class="dropdown-menu" x-placement="bottom-start" style="position: absolute; transform: translate3d(0px, 38px, 0px); top: 0px; left: 0px; will-change: transform;">
+                                <a class="dropdown-item" href="services.html#internet-service">Internet Acces</a>
+                                <a class="dropdown-item" href="services.html#cd-burning">CD/DVD Burning</a>
+                                <a class="dropdown-item" href="services.html#fax-service">Fax Services</a>
+                                <a class="dropdown-item" href="services.html#scanning">Scanning and Printing</a>
+                                <a class="dropdown-item" href="services.html#laminate">Laminating</a>
+                                <a class="dropdown-item" href="services.html#photocopy">Photo Copies</a>
+                                <div class="dropdown-divider"></div>
+                                <a class="dropdown-item" href="services.html#food-service">Food Service</a>
+                                </div>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link" href="promos.html" role="button" aria-haspopup="true" aria-expanded="false">Promos</a>
+                                <div class="dropdown-menu" x-placement="bottom-start" style="position: absolute; transform: translate3d(0px, 38px, 0px); top: 0px; left: 0px; will-change: transform;">
+                                <a class="dropdown-item" href="promos.html#combo-a">Combo A</a>
+                                <a class="dropdown-item" href="promos.html#combo-b">Combo B</a>
+                                <a class="dropdown-item" href="promos.html#como-c">Combo C</a>
+                                </div>
+                            </li>   
+                            <li class="nav-item">
+                                <a class="nav-link" href="about.html">About</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="contact.html">Contact</a>
+                            </li>
+                        </ul>
+                        <form class="form-inline my-2 my-lg-0">
+                            <input class="form-control mr-sm-2" type="text" placeholder="Search">
+                            <button class="btn btn-secondary my-2 my-sm-0" type="submit">Search</button>
+                        </form>
+                    </div>
+                </div><!--/container-->
+                </nav>
+            </div>
+        </div>
+        <!--/navbar-->
       
-      <!-- navigation -->
-      <div class="nav">
-         <nav>
-          <ul class="nav nav-justified navbar-inverse">
-            <li><a href="index.html">Home</a></li>
-            <li class="active"><a href="gaming.html">Gaming</a></li>
-            <li><a href="services.html">Services</a></li>
-            <li><a href="promos.html">Promos</a></li>
-            <li><a href="about.html">About</a></li>
-            <li><a href="contact.html">Contact</a></li>
-          </ul>
-        </nav>
-      </div><!-- /navigation -->
-
+    <div class="container">
       <!--Jumbotron --> 
-      <div class="jumbotron">
-        <h1>Gaming</h1>
+      <div id="gaming-jumbotron" class="jumbotron">
+        <h1><strong>Gaming</strong></h1>
         <p class="lead">Bring your A game!</p>
       </div><!-- /jumbotron --> 
 
 
-      <!-- insert content here -->
+      <!--table of games-->
       <div class="gametable">
-     		<table><!-- Online Games Table -->
-     			<h1>Online Games</h1>
-     			<tr>
+     		<table class="table table-hover"><!-- Online Games Table -->
+     			<h1 id="online-games">Online Games</h1>
+     			<tr class="table-secondary">
      				<th>Icon</th>
      				<th>Game Name</th>
      				<th>Description</th>
      			</tr>
-     			<tr>
-     				<th><img src="images/Dota 2 icon.jpg" class="img-rounded" alt="dota 2 icon"></th>
+     			<tr class="table-active">
+     				<th><img src="images/Dota 2 icon.jpg" alt="dota 2 icon"></th>
      				<td>Dota 2</td>
-     				<td><p style="color:white">Dota 2 is a free-to-play multiplayer online battle arena (MOBA) video game developed and published by Valve Corporation. The game is the stand-alone sequel to Defense of the Ancients (DotA), which was a community-created mod for Blizzard Entertainment's Warcraft III: Reign of Chaos and its expansion pack, The Frozen Throne. Dota 2 is played in matches between two teams of five players, with each team occupying and defending their own separate base on the map. Each of the ten players independently controls a powerful character, known as a "hero", who all have unique abilities and differing styles of play. During a match, players collect experience points and items for their heroes to successfully battle the opposing team's heroes, who attempt to do the same to them. A team wins by being the first to destroy a large structure located in the opposing team's base, called the "Ancient".</p></td>
+     				<td><p>Dota 2 is a free-to-play multiplayer online battle arena (MOBA) video game developed and published by Valve Corporation. The game is the stand-alone sequel to Defense of the Ancients (DotA), which was a community-created mod for Blizzard Entertainment's Warcraft III: Reign of Chaos and its expansion pack, The Frozen Throne. Dota 2 is played in matches between two teams of five players, with each team occupying and defending their own separate base on the map. Each of the ten players independently controls a powerful character, known as a "hero", who all have unique abilities and differing styles of play. During a match, players collect experience points and items for their heroes to successfully battle the opposing team's heroes, who attempt to do the same to them. A team wins by being the first to destroy a large structure located in the opposing team's base, called the "Ancient".</p></td>
      			</tr>
-     			<tr>
-     				<th><img src="images/lol.jpg" class="img-rounded" alt="league of legends icon"></th>
+     			<tr class="table-active">
+     				<th><img src="images/lol.jpg" alt="league of legends icon"></th>
      				<td>League of Legends</td>
-     				<td><p style="color:white">League of Legends is a 3D, third-person multiplayer online battle arena (MOBA) game. The game consists of 3 current running game modes: Summoner's Rift, Twisted Treeline, and Howling Abyss. Another game mode, The Crystal Scar, has since been removed. Players compete in matches, lasting anywhere from 20 to 60 minutes on average. In each game mode teams work together to achieve a victory condition, typically destroying the core building (called the Nexus) in the enemy team's base after bypassing a line of defensive structures called turrets, or towers.</p></td>
+     				<td><p>League of Legends is a 3D, third-person multiplayer online battle arena (MOBA) game. The game consists of 3 current running game modes: Summoner's Rift, Twisted Treeline, and Howling Abyss. Another game mode, The Crystal Scar, has since been removed. Players compete in matches, lasting anywhere from 20 to 60 minutes on average. In each game mode teams work together to achieve a victory condition, typically destroying the core building (called the Nexus) in the enemy team's base after bypassing a line of defensive structures called turrets, or towers.</p></td>
      			</tr>
-     			<tr>
-     				<th><img src="images/pubg.jpg" class="img-rounded" alt="player unknown battlegorunds icon"></th>
+     			<tr class="table-active">
+     				<th><img src="images/pubg.jpg" alt="player unknown battlegorunds icon"></th>
      				<td>Player Unkown Battle Grounds</td>
-     				<td><p style="color:white">>Battlegrounds is a player versus player (PvP) action game in which up to one hundred players fight in a battle royale, a type of large-scale last man standing deathmatch where players fight to remain the last alive. Players can choose to enter the match solo, or with a small team of up to four people. In either case, the last person or team left alive wins the match.</p></td>
+     				<td><p>Battlegrounds is a player versus player (PvP) action game in which up to one hundred players fight in a battle royale, a type of large-scale last man standing deathmatch where players fight to remain the last alive. Players can choose to enter the match solo, or with a small team of up to four people. In either case, the last person or team left alive wins the match.</p></td>
      			</tr>
-     			<tr>
-     				<th><img src="images/csgo.jpeg" class="img-rounded" alt="csgo icon"></th>
+     			<tr class="table-active">
+     				<th><img src="images/csgo.jpeg" alt="csgo icon"></th>
      				<td>Counter Strike: Global Offensive</td>
-     				<td><p style="color:white">Global Offensive, like prior games in the Counter-Strike series, is an objective-based, multiplayer first-person shooter. Two opposing teams, known as the Terrorists and the Counter Terrorists, compete in game modes to complete objectives, such as securing a location to plant or defuse a bomb and rescuing or guarding hostages. At the end of each round, players are rewarded based on their individual performance with in-game currency to spend on more powerful weapons in subsequent rounds. Winning rounds results in more money than losing, and completing objectives such as killing enemy players gives cash bonuses. Uncooperative actions, such as killing teammates, results in a penalty.</p></td>
-     			<tr>
-     				<th><img src="images/ros.jpg" class="img-rounded" alt="rules of survival icon"></th>
+     				<td><p>Global Offensive, like prior games in the Counter-Strike series, is an objective-based, multiplayer first-person shooter. Two opposing teams, known as the Terrorists and the Counter Terrorists, compete in game modes to complete objectives, such as securing a location to plant or defuse a bomb and rescuing or guarding hostages. At the end of each round, players are rewarded based on their individual performance with in-game currency to spend on more powerful weapons in subsequent rounds. Winning rounds results in more money than losing, and completing objectives such as killing enemy players gives cash bonuses. Uncooperative actions, such as killing teammates, results in a penalty.</p></td>
+     			<tr class="table-active">
+     				<th><img src="images/ros.jpg" alt="rules of survival icon"></th>
      				<td>Rules of Survival</td>
-     				<td><p style="color:white">Rules of Survival is a Battle Royale game which pits 120 players against each other in an island. Players are dropped off an airplane and must find weapons and supplies to survive. Players are eventually forced to face each other off as the safe zone shrinks. Prolonged exposure outside of the safe zone will eventually lead to death. The last man standing wins. It's a fight to the death and this is your battle. Fight your way to freedom or camp out in a bush, no one judges your methods but this is the Rules of Survival</p></td>
+     				<td><p>Rules of Survival is a Battle Royale game which pits 120 players against each other in an island. Players are dropped off an airplane and must find weapons and supplies to survive. Players are eventually forced to face each other off as the safe zone shrinks. Prolonged exposure outside of the safe zone will eventually lead to death. The last man standing wins. It's a fight to the death and this is your battle. Fight your way to freedom or camp out in a bush, no one judges your methods but this is the Rules of Survival</p></td>
      			</tr>
-     			<tr>
-     				<th><img src="images/ro.jpeg" class="img-rounded" alt="ragnarok online icon"></th>
+     			<tr class="table-active">
+     				<th><img src="images/ro.jpeg" alt="ragnarok online icon"></th>
      				<td>Ragnarok Online</td>
-     				<td><p style="color:white">Ragnarok Online is divided into a series of maps on two major continents, each of which has its own terrain and native monsters, though many monsters are present in multiple regions. Transportation between maps requires loading the new map and monsters are unable to travel from one map to another unless directly associated with the player such as a pet, mount, or hireling.</p></td>
+     				<td><p>Ragnarok Online is divided into a series of maps on two major continents, each of which has its own terrain and native monsters, though many monsters are present in multiple regions. Transportation between maps requires loading the new map and monsters are unable to travel from one map to another unless directly associated with the player such as a pet, mount, or hireling.</p></td>
      			</tr>
 
      		</table><!-- /online_games_table -->
-<p id="para">
-     		<table><!-- Offline Games Table -->
-     			<h1>Offline Games</h1>
-     			<tr>
-     				<th><img src="images/ass.jpg" class="img-rounded"></th>
+   
+     		<table class="table table-hover"><!-- Offline Games Table -->
+     			<h1 id="offline-games">Offline Games</h1>
+                <tr class="table-secondary">
+                    <th>Icon</th>
+                    <th>Game Name</th>
+                    <th>Description</th>
+                </tr>
+     			<tr class="table-active">
+     				<th><img src="images/ass.jpg"></th>
      				<td>Assasin's Creed : Origins</td>
-     				<td><p style="color:white">Assassin's Creed Origins is an action-adventure stealth game played from a third-person perspective. Players complete quests—linear scenarios with set objectives—to progress through the story, earn experience points, and acquire new skills. Outside of quests, the player can freely roam the open world environment on foot, horseback, camel-back or boat to explore locations, complete optional side-quests and unlock weapons and equipment.</p></td>
+     				<td><p>Assassin's Creed Origins is an action-adventure stealth game played from a third-person perspective. Players complete quests—linear scenarios with set objectives—to progress through the story, earn experience points, and acquire new skills. Outside of quests, the player can freely roam the open world environment on foot, horseback, camel-back or boat to explore locations, complete optional side-quests and unlock weapons and equipment.</p></td>
      			</tr>
-     			<tr>
-     				<th><img src="images/cod.jpg" class="img-rounded"></th>
+     			<tr class="table-active">
+     				<th><img src="images/cod.jpg"></th>
      				<td>Call Of Duty </td>
-     				<td><p style="color:white">a first-person shooter, Call of Duty places the player in control of an infantry soldier who makes use of various authentic World War II firearms in combat. Each mission features a series of objectives which are marked on the heads-up display's compass; the player must complete all objectives to advance to the next mission. The player can save and load at any time, rather than the checkpoint system utilized in later Call of Duty games.</p></td>
+     				<td><p>a first-person shooter, Call of Duty places the player in control of an infantry soldier who makes use of various authentic World War II firearms in combat. Each mission features a series of objectives which are marked on the heads-up display's compass; the player must complete all objectives to advance to the next mission. The player can save and load at any time, rather than the checkpoint system utilized in later Call of Duty games.</p></td>
      			</tr>
-     			<tr>
-     				<th><img src="images/gta iv icons.jpg" class="img-rounded"></th>
+     			<tr class="table-active">
+     				<th><img src="images/gta iv icons.jpg"></th>
      				<td>Grand Theft Auto IV</td>
-     				<td><p style="color:white">Grand Theft Auto IV is an action-adventure game played from a third-person perspective. Players complete missions—linear scenarios with set objectives—to progress through the story. It is possible to have several active missions running at one time, as some missions require players to wait for further instructions or events. Outside of missions, players can freely roam the game's open world, and have the ability to complete optional side missions. Composed of the fictional city of Liberty City, the world of Grand Theft Auto IV is larger in area than most earlier entries in the series. At the beginning of the game, players can only explore the first island–composed of Dukes and Broker–with all other islands unlocking as the story progresses.</p></td>
+     				<td><p>Grand Theft Auto IV is an action-adventure game played from a third-person perspective. Players complete missions—linear scenarios with set objectives—to progress through the story. It is possible to have several active missions running at one time, as some missions require players to wait for further instructions or events. Outside of missions, players can freely roam the game's open world, and have the ability to complete optional side missions. Composed of the fictional city of Liberty City, the world of Grand Theft Auto IV is larger in area than most earlier entries in the series. At the beginning of the game, players can only explore the first island–composed of Dukes and Broker–with all other islands unlocking as the story progresses.</p></td>
      			</tr>
-     			<tr>
-     				<th><img src="images/gta vc.png" class="img-rounded"></th>
+     			<tr class="table-active">
+     				<th><img src="images/gta vc.png"></th>
      				<td>Grand Theft Auto: Vice City</td>
-     				<td><p style="color:white">Grand Theft Auto: Vice City is an action-adventure game played from a third-person perspective. The player controls the criminal Tommy Vercetti and completes missions—linear scenarios with set objectives—to progress through the story. It is possible to have several active missions running at one time, as some missions require the player to wait for further instructions or events. Outside of missions, the player can freely roam the game's open world and has the ability to complete optional side missions. Composed of two main islands and several smaller areas, the world is much larger in area than earlier entries in the series. The islands are unlocked for the player as the story progresses.</p></td>
+     				<td><p>Grand Theft Auto: Vice City is an action-adventure game played from a third-person perspective. The player controls the criminal Tommy Vercetti and completes missions—linear scenarios with set objectives—to progress through the story. It is possible to have several active missions running at one time, as some missions require the player to wait for further instructions or events. Outside of missions, the player can freely roam the game's open world and has the ability to complete optional side missions. Composed of two main islands and several smaller areas, the world is much larger in area than earlier entries in the series. The islands are unlocked for the player as the story progresses.</p></td>
      			</tr>
-     			<tr>
-     				<th><img src="images/gta san icon.jpg" class="img-rounded"></th>
+     			<tr class="table-active">
+     				<th><img src="images/gta san icon.jpg"></th>
      				<td>Grand Theft Auto: San Andreas</td>
-     				<td><p style="color:white">Grand Theft Auto: San Andreas is an action-adventure game with role-playing and stealth elements. Structured similarly to the previous two games in the series, the core gameplay consists of elements in a third-person shooter and a driving game, affording the player a large, open world environment in which to move around. On foot, the player's character is capable of walking, running, sprinting, swimming, climbing and jumping as well as using weapons and various forms of hand-to-hand combat. The player can drive a variety of vehicles, including automobiles, buses, semis, boats, fixed-wing aircraft, helicopters, trains, tanks, motorcycles and bikes. The player may also import vehicles in addition to stealing them.</p></td>
+     				<td><p>Grand Theft Auto: San Andreas is an action-adventure game with role-playing and stealth elements. Structured similarly to the previous two games in the series, the core gameplay consists of elements in a third-person shooter and a driving game, affording the player a large, open world environment in which to move around. On foot, the player's character is capable of walking, running, sprinting, swimming, climbing and jumping as well as using weapons and various forms of hand-to-hand combat. The player can drive a variety of vehicles, including automobiles, buses, semis, boats, fixed-wing aircraft, helicopters, trains, tanks, motorcycles and bikes. The player may also import vehicles in addition to stealing them.</p></td>
      			</tr>
-     			<tr>
-     				<th><img src="images/nfs.jpg" class="img-rounded"></th>
+     			<tr class="table-active">
+     				<th><img src="images/nfs.jpg"></th>
      				<td>Need for Speed</td>
-     				<td><p style="color:white">Almost all of the games in the NFS series employ the same fundamental rules and similar mechanics: the player controls a race car in a variety of races, the goal being to win the race. In the tournament/career mode, the player must win a series of races in order to unlock vehicles and tracks. Before each race, the player chooses a vehicle, and has the option of selecting either an automatic or manual transmission. All games in the series have some form of multiplayer mode allowing players to race one another via a split screen, a LAN or the Internet.</p></td>
+     				<td><p>Almost all of the games in the NFS series employ the same fundamental rules and similar mechanics: the player controls a race car in a variety of races, the goal being to win the race. In the tournament/career mode, the player must win a series of races in order to unlock vehicles and tracks. Before each race, the player chooses a vehicle, and has the option of selecting either an automatic or manual transmission. All games in the series have some form of multiplayer mode allowing players to race one another via a split screen, a LAN or the Internet.</p></td>
      			</tr>
      		</table><!-- /offline_games_table -->
       </div>
+    </div>
 
 
+    <!--footer-->
+    <div class="row">
+        <div id="myfooter" class="col-sm-12" style="height:100px;">
+            <div class="container">
+                    <a class="navbar-brand" href="index.html"><strong>N.E.S. CAFE</strong></a>
+                            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarColor02" aria-controls="navbarColor02" aria-expanded="false" aria-label="Toggle navigation" style="">
+                                <span class="navbar-toggler-icon"></span>
+                            </button>
+                    <p class="copyright">&copy;2018 ITE3 Web Development | <a href="index.html">Home</a> | Editorial policy | Privacy policy | Cookie policy | Terms and condition</p>          
+                </div><!--/container-->
+        </div>
+    </div>
+    <!--/footer-->
 
 
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
 
-
-
-
-
-	
-	  <!-- Site footer -->
-      <footer class="footer">
-        <p>&copy; ITE3 Web Development</p>
-      </footer>
-
-      </div> <!-- /container -->
-
-	<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-    <!-- Include all compiled plugins (below), or include individual files as needed -->
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
 </body>
 </html>
