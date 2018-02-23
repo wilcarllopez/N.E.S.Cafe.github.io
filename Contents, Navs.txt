@@ -22,7 +22,7 @@ Pages
 		*Prices, Table, Bundles
 *PROMOS*
 	Bundles
-		Combo A
+		Combo A	
 		Combo B
 		Combo C
 
