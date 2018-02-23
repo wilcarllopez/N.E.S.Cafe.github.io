@@ -35,8 +35,11 @@
 .w3-container{
   width: 75%;
   margin: auto;
-  position: center;
+}
 
+.column {
+    width: 75%;
+    margin: auto;
 }
 
 body{
